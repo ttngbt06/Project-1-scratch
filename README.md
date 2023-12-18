@@ -14,7 +14,7 @@ Welcome to this **Eat & Stay Planning* website that will sastified your needed!
 
 ## Screenshot
 This website will functionally like this: 
-![Mock Up Image](./assets/images/screenshot.png)
+![Mock Up Image](./assets/Images/screenshot.png)
 
 ## Link
 Ready to explore restaurants & hotel for your plan? Browse this **[Eat & Stay Planning]()**
