@@ -1,0 +1,182 @@
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+background-color: #F3F4F6;
+color: #333;
+}
+
+header {
+background-image: linear-gradient(to bottom right, #5D5C61, white);
+color: #fff;
+padding: 15px 0;
+text-align: center;
+}
+
+.logo {
+max-width: 400px;
+height: auto;
+}
+
+nav a {
+color: #ffffff;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+.banner {
+background-image: url(banner.jpg);
+background-size: cover;
+background-position: center;
+height: 450px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.slogan {
+font-size: 24px;
+color: #ffffff;
+text-shadow: 2px 2px 4px #000;
+}
+
+.input-section {
+text-align: center;
+padding: 20px;
+margin: 20px auto;
+width: 80%;
+max-width: 400px;
+border: 2px solid #ccc;
+border-radius: 15px;
+}
+
+input, button {
+padding: 10px;
+width: 100%;
+margin-top: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+margin-top: 10px; 
+background-color: #557A95;
+
+color: #ffffff;
+cursor: pointer;
+}
+.save-section{
+width: 200px;
+padding-left: 10px;
+}
+
+.restaurant-section{
+padding-left: 20px;
+margin: 5px;
+font-size: 20px;
+
+}
+.hotel-button{
+width: 200px;
+padding-left: 10px;
+}
+
+.hotel-section{
+padding-left: 5px;
+margin: 5px;
+font-size: 20px;
+}
+
+footer {
+background-color: #5D5C61;
+color: #fff;
+text-align: center;
+padding: 15px 0;
+margin-top: 20px;
+}
+
+
+#introduction {
+background-color: #F7F7F7;
+padding: 20px;
+text-align: center;
+}
+
+.introduction-content {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.introduction-content h2 {
+color: #333;
+margin-bottom: 10px;
+}
+
+.introduction-content p {
+color: #555;
+}
+
+
+.container {
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+}
+
+nav {
+background-color: #5D5C61;
+padding: 10px;
+text-align: center;
+
+}
+#restaurants{
+    margin-left: 20%;
+}
+nav a {
+color: #ffffff;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+#savedRestaurants {
+margin-top: 20px;
+padding: 20px;
+background-color: #F3F4F6;
+border-radius: 10px;
+text-align: center;
+
+}
+
+#savedHotels {
+margin-top: 20px;
+padding: 20px;
+background-color: #F3F4F6;
+border-radius: 10px;
+text-align: center;
+}
+
+#removeBtn {
+    width: 200px;
+    margin-left: 10px;
+    }
+
+@media (max-width: 768px) {
+.container {
+padding: 10px;
+}
+
+nav a {
+display: block;
+margin: 10px 0;
+}
+}
+ 
